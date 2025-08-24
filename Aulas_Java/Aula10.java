@@ -4,7 +4,7 @@ public class Aula10 {
         while (contador > 0) {
             contador--;
             if (contador % 2 == 0) {
-                continue;
+                continue;//pula essa ação,voltando para o inicio do while
             }
             System.out.println("Contando de numero impar: " + contador);
         }
