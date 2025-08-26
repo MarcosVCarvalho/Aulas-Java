@@ -10,6 +10,7 @@ public class Aula11 {
             System.out.print("Digite um numero: ");
             n1 = teclado.nextInt();
             soma += n1;
+            //next.line importante para dar outro input
             teclado.nextLine();
             System.out.print("Deseja parar?[s/n]: ");
             resposta = teclado.nextLine();
