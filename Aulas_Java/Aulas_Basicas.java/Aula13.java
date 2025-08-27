@@ -11,7 +11,10 @@ public class Aula13 {
             n = teclado.nextInt();
             numeros[i] = n;
         }
-        System.out.println("Os números digitados foram " + Arrays.toString(numeros));
+        Arrays.sort(numeros);
+        System.out.println("Os números digitados em ordem crescente foram: " + Arrays.toString(numeros));
+        int resultado = Aula15.soma(5,10);
+        System.out.println("O resultado foi " + resultado);
         teclado.close();
     }
 }
